@@ -20,7 +20,7 @@ public class FortuneServlet extends HttpServlet{
 		resp.setCharacterEncoding("utf-8");
 		//응답 컨텐트 type  설정
 		resp.setContentType("text/html;charset=utf-8");
-		
+		//
 		//클라이언트의 웹브라우저에 문자열을 출력할수 있는 객체의 참조값 얻어오기 
 		PrintWriter pw=resp.getWriter();
 		pw.println("<!doctype html>");
