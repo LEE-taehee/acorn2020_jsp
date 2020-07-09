@@ -9,6 +9,6 @@
 	//3. 응답 
 	//리다일렉트 이동시키기 위해 context path 를 먼저 읽어온다.
 	String cPath=request.getContextPath();
-	//회원 목록보기 요청을 하도록 강요 하는 응답을 한다. (리다일렉트 이동 시키기)	
+	//회원 목록보기 요청을 하도록 강요 하는 응답을 한다. (리다이렉트 이동 시키기)	
 	response.sendRedirect(cPath+"/member/list.jsp");
 %>
