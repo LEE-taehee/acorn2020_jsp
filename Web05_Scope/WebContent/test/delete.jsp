@@ -5,6 +5,7 @@
 	session.removeAttribute("nick");
 	//session.invalidate(); 세션 영역에 저장된 모든 값 삭제하기
 %>
+<link rel="stylesheet" href="/Web02_Servlet/css/bootstrap.css" />
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +13,8 @@
 <title>/test/delete.jsp</title>
 </head>
 <body>
-	<script>
-		alert("닉네임을 삭제 했습니다.");
-		location.href="../index.jsp";
-	</script>
+<div class="alert alert-danger" role="alert">
+	삭제 했습니다.
+</div>
 </body>
 </html>

@@ -27,11 +27,15 @@
 
 </div>
 <div class="container">
-	<ol class="breadcrumb">
-		<li class="breadcrumb-item"><a href="../index.jsp">Home</a></li>
-		<li class="breadcrumb-item active">회원목록</li>
-	</ol>
+<ol class="breadcrumb">
+<li class="breadcrumb-item">
+<a href="../index.jsp">home</a></li>
+<li class="breadcrumb-item">
+<a href="../index.jsp">game</a></li>
+<li class="breadcrumb-item active">study</li>
+</ol>
 </div>
+
 	<h1>회원 목록입니다.</h1>
 	<table class="table table-sm">
 		<thead class="thead-dark">
